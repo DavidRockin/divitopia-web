@@ -1,0 +1,31 @@
+div.info {
+	background: $shade1;
+	padding: 48px 0px 96px;
+
+	&::after {
+		display: table;
+		clear: both;
+		content: '';
+	}
+
+	img {
+		float: left;
+		margin: 0px 22px 0px 0px;
+	}
+
+	p {
+		font-size: 18pt;
+	}
+
+	&:nth-child(even) {
+		background: $colour1 !important;
+		color: $shade1;
+
+		img {
+			float: right;
+			margin-right: 0px;
+			margin-left: 22px;
+		}
+	}
+
+}
