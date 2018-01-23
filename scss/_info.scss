@@ -29,3 +29,26 @@ div.info {
 	}
 
 }
+
+@media (max-width: 991px) {
+	div.info p {
+		font-size: 13.5pt;
+	}
+	div.info img {
+		max-width: 250px;
+	}
+}
+@media (max-width: 768px) {
+	div.info img {
+		float: none !important;
+		width: calc(100% - 60px);
+		padding: 0px 30px 15px;
+		margin: 0 auto !important;
+		display: block;
+		clear: both;
+		max-width: none;
+	}
+	div.info h1 {
+		font-size: 22pt;
+	}
+}
