@@ -1,9 +1,9 @@
 div.masthead {
-	height: 600px;
+	height: 100vh;
 	color: $shade1;
 	text-align: center;
 
-	background: $colour2 url(../image/masthead-banner.jpg) no-repeat  center 125px;
+	background: $colour2 url(../image/masthead-banner.jpg) no-repeat  center 369px;
 
 	&::after {
 		display: table;
@@ -31,6 +31,6 @@ div.masthead {
 
 	h2 {
 		font-size: 25pt;
-		padding-top: 96px;
+		padding-top: 32px;
 	}
 }
