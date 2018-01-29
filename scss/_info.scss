@@ -17,9 +17,23 @@ div.info {
 		font-size: 16pt;
 	}
 
+	a {
+		color: $colour1;
+	}
+	a:hover {
+		color: darken($colour1, 10%);
+	}
+
 	&:nth-child(even) {
 		background: $colour1 !important;
 		color: $shade1;
+
+		a {
+			color: darken($shade1, 10%);
+		}
+		a:hover {
+			color: darken($shade1, 20%);
+		}
 
 		img {
 			float: right;
