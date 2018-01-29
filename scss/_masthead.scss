@@ -3,7 +3,7 @@ div.masthead {
 	color: $shade1;
 	text-align: center;
 
-	background: $colour2 url(../image/masthead-banner.jpg) no-repeat  center 369px;
+	background: $colour2 url(../image/masthead-banner.jpg) no-repeat  center bottom;
 
 	&::after {
 		display: table;
@@ -32,5 +32,9 @@ div.masthead {
 	h2 {
 		font-size: 25pt;
 		padding-top: 32px;
+	}
+
+	a.btn {
+		margin-top: 32px;
 	}
 }

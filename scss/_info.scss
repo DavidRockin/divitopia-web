@@ -28,6 +28,20 @@ div.info {
 		}
 	}
 
+	&.download {
+		background: darken($colour1, 10%) !important;
+		color: $shade1;
+
+		h1 {
+			margin-bottom: 48px;
+			font-size: 36pt
+		}
+
+		a {
+			margin: 0px 8px;
+		}
+	}
+
 }
 
 @media (max-width: 991px) {
