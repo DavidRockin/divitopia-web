@@ -3,7 +3,11 @@ div.masthead {
 	color: $shade1;
 	text-align: center;
 
-	background: $colour2 url(../image/masthead-banner.jpg) no-repeat  center bottom;
+	background: $colour2 url(../image/masthead-banner.jpg) no-repeat center bottom;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
 
 	&::after {
 		display: table;
@@ -23,7 +27,7 @@ div.masthead {
 	}
 
 	h1, h2 {
-		padding-top: 150px;
+		padding-top: 100px;
 		text-shadow: 0 0 2px lighten($colour2, 20%);
 		font-size: 35pt;
 		color: lighten($colour2, 57%);
