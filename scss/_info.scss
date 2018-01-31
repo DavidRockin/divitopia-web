@@ -45,14 +45,16 @@ div.info {
 	&.download {
 		background: darken($colour1, 10%) !important;
 		color: $shade1;
+		padding: 128px 0px;
 
 		h1 {
 			margin-bottom: 48px;
-			font-size: 36pt
+			font-size: 38pt
 		}
 
 		a {
 			margin: 0px 8px;
+			color: $shade1;
 		}
 	}
 
